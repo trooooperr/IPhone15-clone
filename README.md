@@ -1,8 +1,10 @@
 # iPhone 15 Website Clone 📱
 
-![iPhone 15 1](./assets/images/ss1.png) ![iPhone 15 2](./assets/images/ss2.png) ![iPhone 15 3](./assets/images/ss3.png) ![iPhone 15 4](./assets/images/ss4.png)
-
 ---
+<img width="1410" height="838" alt="ss1" src="https://github.com/user-attachments/assets/bab54000-044a-4aaa-81dc-cfd2cb8ea35c" />
+<img width="1407" height="829" alt="ss2" src="https://github.com/user-attachments/assets/a35532aa-7530-4135-8db6-2faef4e2e5cb" />
+<img width="1369" height="836" alt="ss3" src="https://github.com/user-attachments/assets/b1f15389-7004-4d5e-be38-d0371430c611" />
+<img width="1379" height="840" alt="ss4" src="https://github.com/user-attachments/assets/8cec7af1-53ce-4334-9342-860b8f0ca2df" />
 
 A **pixel-perfect clone of Apple’s iPhone 15 Pro website**, built to practice **modern web development techniques** including React, Three.js, GSAP animations, and Tailwind CSS. This project helps understand how **interactive 3D websites** are structured and how animations can enhance user experience.  
 
