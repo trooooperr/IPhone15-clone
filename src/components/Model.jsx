@@ -34,7 +34,6 @@ const Model = () => {
 
   useEffect(() => {
     if(size === 'large') {
-      large.current.rotation.y = smallRotation;
       animateWithGsapTimeline(tl, small, smallRotation, '#view1', '#view2', {
         transform: 'translateX(-100%)',
         duration: 2
@@ -42,7 +41,6 @@ const Model = () => {
     }
 
     if(size ==='small') {
-      small.current.rotation.y = largeRotation;
       animateWithGsapTimeline(tl, large, largeRotation, '#view2', '#view1', {
         transform: 'translateX(0)',
         duration: 2
@@ -100,8 +98,7 @@ const Model = () => {
           </div>
 
           <div className="mx-auto w-full">
-            <p className="text-sm font-light text-center mb-5">
-                {model.title}</p>
+            <p className="text-sm font-light text-center mb-5">{model.title}</p>
 
             <div className="flex-center">
               <ul className="color-container">
@@ -112,7 +109,7 @@ const Model = () => {
 
               <button className="size-btn-container">
                 {sizes.map(({ label, value }) => (
-                  <span key={label} className="size-btn " style={{ backgroundColor: size === value ? 'white' : 'transparent', color: size === value ? 'black' : 'white'}} onClick={() => setSize(value)}>
+                  <span key={label} className="size-btn" style={{ backgroundColor: size === value ? 'white' : 'transparent', color: size === value ? 'black' : 'white'}} onClick={() => setSize(value)}>
                     {label}
                   </span>
                 ))}

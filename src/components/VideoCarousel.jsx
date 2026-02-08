@@ -98,12 +98,12 @@ const VideoCarousel = () => {
       }
 
       // update the progress bar
-const animUpdate = () => {
-  const video = videoRef.current[videoId];
-  if (video && video.duration > 0) {
-    anim.progress(video.currentTime / video.duration);
-  }
-};
+      const animUpdate = () => {
+        anim.progress(
+          videoRef.current[videoId].currentTime /
+            hightlightsSlides[videoId].videoDuration
+        );
+      };
 
       if (isPlaying) {
         // ticker to update the progress bar

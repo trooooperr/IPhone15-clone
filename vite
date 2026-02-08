@@ -1,0 +1,1 @@
+npm install @sentry/vite-plugin --save-dev
