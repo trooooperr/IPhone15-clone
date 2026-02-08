@@ -2,6 +2,6 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  base: "/IPhone15-clone/",
+  base: "/iPhone15-clone/",
   plugins: [react()],
 });
