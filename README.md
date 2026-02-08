@@ -1,4 +1,4 @@
-# iPhone 15 Website Clone 📱
+# iPhone 15 Website Clone
 
 ---
 <img width="300" height="400" alt="ss1" src="https://github.com/user-attachments/assets/bab54000-044a-4aaa-81dc-cfd2cb8ea35c" />
@@ -8,6 +8,7 @@
 <img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/a0d1bbac-a6c4-4299-b36b-4e5c6ab22763" />
 <img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/348e4e51-e422-48d7-956d-f259c39101c1" />
 
+<br>
 <br>
 
 
